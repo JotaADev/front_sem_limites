@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from '../NavBar/NavBar';
 import './Header.css';
 
 const Header = () => {
@@ -7,10 +6,9 @@ const Header = () => {
     <>
       <header>
         <div className='HeaderContent'>
-          <a href='/' className='HeaderLogo'>
+          <a href='/'>
             <img src='./logo.png' width='200px'/>
           </a>
-          <NavBar/>
         </div>
       </header>
     </>

@@ -8,11 +8,18 @@ header {
 .HeaderContent {
     display: flex;
     align-items: center;
-    width: 80vw;
+    width: 80%;
     height: 10vh;
     padding: 0 1rem 0 1rem;
 }
 
-.HeaderLogo {
-    margin-right: auto;
+@media (max-width: 1023px) {
+    .HeaderContent {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 10vh;
+        padding: 0 1rem 0 1rem;
+    }
 }

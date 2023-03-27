@@ -11,9 +11,12 @@ const HomePage = () => {
                 <div className="HomeBookInfo">
                     <h1>Este e-book é perfeito para você!</h1>
                     <p>Um guia prático e completo para todos os níveis de desenvolvedores front-end.</p>
-                    <button>Adquira agora</button>
+                    <div>
+                      <button className="HomeBtnBuyNow">Adquira agora</button>
+                      <button className="HomeBtnLearnMore">Saiba mais</button>
+                    </div>
                 </div>
-                <img src="./mockup.png" width='400px'/>
+                <img className="HomeImageBook" src="./capa.png"/>
             </section>
         </main>
     </>

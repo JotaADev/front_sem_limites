@@ -9,30 +9,105 @@
 .HomeSection {
     display: flex;
     justify-content: space-between;
-    width: 70vw;
+    width: 80%;
+}
+
+.HomeBookInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .HomeBookInfo h1 {
     font-size: 3.4rem;
-    color: #FFFFFF;
     margin-bottom: 1rem;
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .HomeBookInfo p {
     font-size: 1.2rem;
+    color: #FFFFFF;
 }
 
-.HomeBookInfo button {
-    font-size: 1.7rem;
-    margin-top: 2rem;
+.HomeBookInfo div {
+    display: flex;
+    align-items: center;
+}
+
+.HomeBookInfo div button {
+    font-size: 1.5rem;
+    margin: 2rem 1.5rem 0 0;
     border: none;
-    border-radius: 0.8rem;
+    border-radius: 1rem;
     padding: 1rem;
-    font-weight: bold;
     text-transform: uppercase;
 }
 
-.HomeBookInfo button:hover {
+.HomeBtnBuyNow {
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+    background-size: 200% auto;
+    color: white;
+}
+
+.HomeBtnBuyNow:hover {
     cursor: pointer;
-    background-color: #FFA500;
+    background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%);
+}
+
+.HomeBtnLearnMore {
+    background: transparent;
+    border: 1px solid #2b5876 !important;
+    background-size: 200% auto;
+    color: white;
+}
+
+.HomeBtnLearnMore:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+}
+
+.HomeImageBook {
+    width: 30%;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 1023px) {
+    .HomeContent {
+        height: 100%;
+    }
+
+    .HomeSection {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .HomeImageBook {
+        width: 50%;
+        margin: 1rem auto;
+    }
+
+    .HomeBookInfo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .HomeBookInfo h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .HomeBookInfo div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .HomeBookInfo div button {
+        width: 80%;
+    }
 }
