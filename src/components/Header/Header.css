@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 16vh;
+}
+
+.HeaderContent {
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    height: 10vh;
+    padding: 0 1rem 0 1rem;
+}
+
+.HeaderLogo {
+    margin-right: auto;
+}

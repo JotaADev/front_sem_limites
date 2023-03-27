@@ -1,0 +1,38 @@
+.HomeContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 84vh;
+}
+
+.HomeSection {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+.HomeBookInfo h1 {
+    font-size: 3.4rem;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.HomeBookInfo p {
+    font-size: 1.2rem;
+}
+
+.HomeBookInfo button {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.HomeBookInfo button:hover {
+    cursor: pointer;
+    background-color: #FFA500;
+}
