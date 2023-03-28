@@ -1,0 +1,24 @@
+.ProductInfoContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #202020;
+}
+
+.ProductInfoContent h2 {
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    text-align: center;
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.ProductInfoBoxLanguages {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 80%;
+}

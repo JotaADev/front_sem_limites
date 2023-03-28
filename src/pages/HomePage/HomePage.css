@@ -76,7 +76,7 @@
 
 @media (max-width: 1023px) {
     .HomeContent {
-        height: 100%;
+        height: 84vh;
     }
 
     .HomeSection {
