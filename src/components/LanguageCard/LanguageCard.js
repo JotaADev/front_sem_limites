@@ -1,14 +1,15 @@
 import React from 'react';
 import './LanguageCard.css';
 
-const LanguageCard = () => {
+const LanguageCard = ({language, topics}) => {
     return (
     <>
         <div className='LanguageCardContent'>
-            <h3>HTML</h3>
+            <h3>{language}</h3>
             <ul>
-                <li>Introdução</li>
-                <li>Estrutura básica</li>
+                {topics.map((topic) => (
+                    <li key={topic}>{topic}</li>
+                ))}
             </ul>
         </div>
     </>

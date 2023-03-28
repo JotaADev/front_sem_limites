@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     background-color: #202020;
 }
 
@@ -21,4 +20,70 @@
     display: flex;
     flex-wrap: nowrap;
     width: 80%;
+}
+
+.ProductInfoAdditional {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.ProductInfoAdditional h3 {
+    margin-bottom: 4rem;
+    font-size: 2.5rem;
+    text-align: center;
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.ProductInfoAdditional p {
+    color: #FFFFFF;
+    text-align: justify;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.ProductInfoAdditional p.ProductInfoGaranty {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.ProductInfoAdditional strong {
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.ProductInfoAdditional h3.ProductInfoPrice {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%);
+}
+
+.ProductInfoAdditional button {
+    width: 60%;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+    background-size: 200% auto;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.ProductInfoAdditional button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%);
+}
+
+@media (max-width: 1023px) {
+    .ProductInfoAdditional button {
+        width: 100%;
+    }
 }
