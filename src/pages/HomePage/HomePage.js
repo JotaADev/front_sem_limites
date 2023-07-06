@@ -14,10 +14,7 @@ const HomePage = () => {
                   <h1>Este e-book é perfeito para você!</h1>
                   <p>Um guia prático e completo para todos os níveis de desenvolvedores front-end.</p>
                   <div>
-                    <button
-                      onClick={() => {window.open('https://front-sem-limites.vercel.app/');}}
-                      className="HomeBtnBuyNow">Adquira agora
-                    </button>
+                    <button className="HomeBtnBuyNow">Adquira agora</button>
                     <button  onClick={downToLearnMore} className="HomeBtnLearnMore">Saiba mais</button>
                   </div>
               </div>
