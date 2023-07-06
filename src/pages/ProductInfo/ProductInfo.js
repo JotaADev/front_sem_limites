@@ -80,7 +80,7 @@ class ProductInfo extends Component {
                     <h3 className='ProductInfoPrice'>Tudo isso por apenas R$15,00</h3>
                     <p className='ProductInfoGaranty'>Legal né? E conta com garantia de 7 dias caso você não curta o conteúdo do e-book!</p>
                     <button
-                        onClick={() => {window.open('https://pay.hotmart.com/I81175042L');}}>Adquira agora
+                        onClick={() => {window.open('https://front-sem-limites.vercel.app/');}}>Adquira agora
                     </button>
                 </div>
             </section>
