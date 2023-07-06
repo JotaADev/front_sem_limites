@@ -79,9 +79,7 @@ class ProductInfo extends Component {
                     <p>Este módulo conta com diversos tópicos para te ajudar a se destacar dos outros candidatos nas vagas de emprego!</p>
                     <h3 className='ProductInfoPrice'>Tudo isso por apenas R$15,00</h3>
                     <p className='ProductInfoGaranty'>Legal né? E conta com garantia de 7 dias caso você não curta o conteúdo do e-book!</p>
-                    <button
-                        onClick={() => {window.open('https://front-sem-limites.vercel.app/');}}>Adquira agora
-                    </button>
+                    <button>Adquira agora</button>
                 </div>
             </section>
         )
